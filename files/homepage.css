@@ -1,0 +1,75 @@
+@import url('https://fonts.googleapis.com/css2?family=Poppins:ital,wght@0,300;0,400;0,500;0,600;0,700;0,800;1,300;1,400;1,500;1,600;1,700;1,800&display=swap');
+
+body
+{
+  font-family: 'Poppins', sans-serif;
+}
+
+#navbar {
+  overflow: hidden;
+  background-color: #333;
+  height: 100%;
+}
+
+#navbar a {
+  float: right;
+  display: block;
+  color: #f2f2f2;
+  text-align: center;
+  padding: 14px;
+  text-decoration: none;
+  font-size: 20px;
+  letter-spacing: 1px;
+  opacity: 0.7;
+}
+
+#navbar a[id='title']
+{
+  float: left;
+  padding-left: 20px;
+  cursor: pointer;
+  opacity: 1;
+}
+
+#navbar a[id='option']:hover
+{
+  background-color: red;
+  transition: 0.5s ease-out;
+  opacity: 1;
+}
+
+.content {
+  padding: 16px;
+}
+
+
+.home
+{
+  position: relative;
+  display: inline-block;
+  text-align: center;
+  justify-content: center;
+  align-items: center;
+  background: linear-gradient(to right, #0ABFBC, #FC354C);
+  width: 100%;
+  min-height: 80vh;
+  background-repeat: no-repeat;
+  background-size: cover;
+  padding-top: 70px;
+  overflow-y: hidden;
+}
+
+.home h2
+{
+  font-size: 4em;
+  text-transform: uppercase;
+  color: #fff;
+}
+
+.home p
+{
+  font-weight: 500;
+  font-size: 2em;
+  color: #fff;
+}
+

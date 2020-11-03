@@ -1,0 +1,201 @@
+<!DOCTYPE html>
+<html>
+<head>
+	<title>Intermediate Formulas - Studentology</title>
+	<link rel="stylesheet" type="text/css" href="middleFormulas.css">
+</head>
+<body>
+  <div id="navbar">
+    <a id='title' class='title'>Studentology</a>
+    <a id='option' href="contact.html">Contact</a>
+    <a id='option' href="about.html">About</a>
+    <a id='option' href="projects.html">Projects</a>
+    <a id='option' href="index.html">Home</a>
+  </div>
+  <h2 id='titleText' class='titleText'>Elementary Formulas</h2>
+  <div id="prevBtn" class='prevBtn'>
+  	<img src="left-arrow.png" onclick="back();">
+  </div>
+  <div id="formulas sine active" class="formulas sine active">
+  	<h2>Trigonometry: sine</h2>
+  	<br>
+  	<span>sin0°: <b>0</b></span>
+  	<br>
+  	<br>
+  	<span>sin30°: <b>1/2</b></span>
+  	<br>
+  	<br>
+  	<span>sin45°: <b>√2/2</b></span>
+  	<br>
+  	<br>
+  	<span>sin60°: <b>√3/2</b></span>
+  	<br>
+  	<br>
+  	<span>sin90°: <b>1</b></span>
+  </div>
+  <div id="formulas cosine active" class="formulas cosine active">
+  	<h2>Trigonometry: cosine</h2>
+  	<br>
+  	<span>cos0°: <b>1</b></span>
+  	<br>
+  	<br>
+  	<span>cos30°: <b>√3/2</b></span>
+  	<br>
+  	<br>
+  	<span>cos45°: <b>√2/2</b></span>
+  	<br>
+  	<br>
+  	<span>cos60°: <b>1/2</b></span>
+  	<br>
+  	<br>
+  	<span>cos90°: <b>0</b></span>
+  </div>
+  <div id="formulas tangent active" class="formulas tangent active">
+  	<h2>Trigonometry: tangent</h2>
+  	<br>
+  	<span>tan0°: <b>0</b></span>
+  	<br>
+  	<br>
+  	<span>tan30°: <b>√3/3</b></span>
+  	<br>
+  	<br>
+  	<span>tan45°: <b>1</b></span>
+  	<br>
+  	<br>
+  	<span>tan60°: <b>√3</b></span>
+  	<br>
+  	<br>
+  	<span>tan90°: <b>Undefined</b></span>
+  </div>
+  <div id="formulas cosecant active" class="formulas cosecant active">
+  	<h2>Trigonometry: cosecant</h2>
+  	<br>
+  	<span>csc0°: <b>Undefined</b></span>
+  	<br>
+  	<br>
+  	<span>csc30°: <b>2</b></span>
+  	<br>
+  	<br>
+  	<span>csc45°: <b>√2</b></span>
+  	<br>
+  	<br>
+  	<span>csc60°: <b>2/√3</b></span>
+  	<br>
+  	<br>
+  	<span>csc90°: <b>1</b></span>
+  </div>
+  <div id="formulas secant" class="formulas secant">
+  	<h2>Trigonometry: secant</h2>
+  	<br>
+  	<span>sec0°: <b>1</b></span>
+  	<br>
+  	<br>
+  	<span>sec30°: <b>2/√3</b></span>
+  	<br>
+  	<br>
+  	<span>sec45°: <b>√2</b></span>
+  	<br>
+  	<br>
+  	<span>sec60°: <b>2</b></span>
+  	<br>
+  	<br>
+  	<span>sec90°: <b>Undefined</b></span>
+  </div>
+  <div id="formulas cotangent" class="formulas cotangent">
+  	<h2>Trigonometry: cotangent</h2>
+  	<br>
+  	<span>cot0°: <b>Undefined</b></span>
+  	<br>
+  	<br>
+  	<span>cot30°: <b>√3</b></span>
+  	<br>
+  	<br>
+  	<span>cot45°: <b>1</b></span>
+  	<br>
+  	<br>
+  	<span>cot60°: <b>√3/3</b></span>
+  	<br>
+  	<br>
+  	<span>cot90°: <b>0</b></span>
+  </div>
+  <div id="formulas sides" class="formulas sides">
+  	<h2>Trigonometry: Sides</h2>
+  	<br>
+  	<span>sin: <b>opposite / hypotenuse</b></span>
+  	<br>
+  	<span>cos: <b>adjacent / hypotenuse</b></span>
+  	<br>
+  	<span>tan: <b>opposite / adjacent</b></span>
+  	<br>
+  	<span>cosec: <b>hypotenuse / opposite</b></span>
+  	<br>
+  	<span>sec: <b>hypotenuse / adjacent</b></span>
+  	<br>
+  	<span>cot: <b>adjacent / opposite</b></span>
+  </div>
+  <div id="formulas sides2" class="formulas sides2">
+  	<h2>Trigonometry: Ratios</h2>
+  	<br>
+  	<span>sin: <b>1 / cosec</b></span>
+  	<br>
+  	<span>cos: <b>1 / sec</b></span>
+  	<br>
+  	<span>tan: <b>1 / cot</b></span>
+  	<br>
+  	<span>cosec: <b>1 / sin</b></span>
+  	<br>
+  	<span>sec: <b>1 / cos</b></span>
+  	<br>
+  	<span>cot: <b>1 / tan</b></span>
+  </div>
+  <div id="nextBtn active" class="nextBtn active">
+  	<img src="next.png" onclick="next();">
+  </div>
+</body>
+<script type="text/javascript">
+	function next(){
+		var sin = document.getElementsByClassName('sine')[0];
+		var cos = document.getElementsByClassName('cosine')[0];
+		var tan = document.getElementsByClassName('tangent')[0];
+		var csc = document.getElementsByClassName('cosecant')[0];
+		var sec = document.getElementsByClassName('secant')[0];
+		var cot = document.getElementsByClassName('cotangent')[0];
+		var next = document.getElementsByClassName('nextBtn')[0];
+		var prev = document.getElementsByClassName('prevBtn')[0];
+		var sides = document.getElementsByClassName('sides')[0];
+		var sides2 = document.getElementsByClassName('sides2')[0];
+		sin.className = sin.className.replace(' active', '');
+		cos.className = cos.className.replace(' active', '');
+		tan.className = tan.className.replace(' active', '');
+		csc.className = csc.className.replace(' active', '');
+		next.className = next.className.replace(' active', '');
+		sec.className = sec.className + ' active';
+		cot.className = cot.className + ' active';
+		prev.className = prev.className + ' active';
+		sides.className = sides.className + ' active';
+		sides2.className = sides2.className + ' active';
+}
+	function back(){
+		var sin = document.getElementsByClassName('sine')[0];
+		var cos = document.getElementsByClassName('cosine')[0];
+		var tan = document.getElementsByClassName('tangent')[0];
+		var csc = document.getElementsByClassName('cosecant')[0];
+		var sec = document.getElementsByClassName('secant')[0];
+		var cot = document.getElementsByClassName('cotangent')[0];
+		var next = document.getElementsByClassName('nextBtn')[0];
+		var prev = document.getElementsByClassName('prevBtn')[0];
+		var sides = document.getElementsByClassName('sides')[0];
+		var sides2 = document.getElementsByClassName('sides2')[0];
+		sin.className = sin.className + ' active';
+		cos.className = cos.className + ' active';
+		tan.className = tan.className + ' active';
+		csc.className = csc.className + ' active';
+		next.className = next.className + ' active';
+		sec.className = sec.className.replace(' active', '');
+		cot.className = cot.className.replace(' active', '');
+		prev.className = prev.className.replace(' active', '');
+		sides.className = sides.className.replace(' active', '');
+		sides2.className = sides2.className.replace(' active', '');
+	}
+</script>
+</html>

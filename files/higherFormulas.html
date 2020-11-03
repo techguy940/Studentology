@@ -1,0 +1,144 @@
+<!DOCTYPE html>
+<html>
+<head>
+	<title>Physics Formulas - Studentology</title>
+	<link rel="stylesheet" type="text/css" href="higherFormulas.css">
+</head>
+<body>
+  <div id="navbar">
+    <a id='title' class='title'>Studentology</a>
+    <a id='option' href="contact.html">Contact</a>
+    <a id='option' href="about.html">About</a>
+    <a id='option' href="projects.html">Projects</a>
+    <a id='option' href="index.html">Home</a>
+  </div>
+  <h2 id='titleText' class='titleText'>Physics Formulas</h2>
+  <div id="prevBtn" class='prevBtn'>
+  	<img src="left-arrow.png" onclick="back();">
+  </div>
+  <div id="formulas vectors active" class="formulas vectors active">
+  	<h2>Vectors</h2>
+  	<img src="https://cdn1.byjus.com/wp-content/uploads/2018/11/physics/2018/07/09073214/Physics-Formulas-For-Class-10-1.png">
+  </div>
+  <div id="formulas kinematics active" class="formulas kinematics active">
+  	<h2>Kinematics</h2>
+  	<br>
+  	<br>
+  	<img src="https://cdn1.byjus.com/wp-content/uploads/2018/11/physics/2018/07/09073211/Physics-Formulas-For-Class-10-2.png">
+  </div>
+  <div id="formulas projectile" class="formulas projectile">
+  	<h2>Projectile Motion</h2>
+  	<br>
+  	<br>
+  	<img src="https://cdn1.byjus.com/wp-content/uploads/2018/11/physics/2018/07/09073209/Physics-Formulas-For-Class-10-3.png">
+  </div>
+  <div id="formulas work" class="formulas work">
+  	<h2>Work and Energy</h2>
+  	<img src="https://cdn1.byjus.com/wp-content/uploads/2018/11/physics/2018/07/09073211/Physics-Formulas-For-Class-10-4.png">
+  </div>
+  <div id="formulas gravity" class="formulas gravity">
+  	<h2>Gravitation</h2>
+  	<img src="https://cdn1.byjus.com/wp-content/uploads/2018/11/physics/2018/07/09073207/Physics-Formulas-For-Class-10-5.png">
+  </div>
+  <div id="formulas waves" class="formulas waves">
+  	<h2>Waves Motion</h2>
+  	<br>
+  	<img src="https://cdn1.byjus.com/wp-content/uploads/2018/11/physics/2018/07/09073208/Physics-Formulas-For-Class-10-6.png">
+  </div>
+  <div id="formulas sound" class="formulas sound">
+  	<h2>Sound Waves</h2>
+  	<br>
+  	<br>
+  	<img src="https://cdn1.byjus.com/wp-content/uploads/2018/11/physics/2018/07/09073202/Physics-Formulas-For-Class-10-7.png">
+  </div>
+  <div id="formulas reflection" class="formulas reflection">
+  	<h2>Reflection</h2>
+  	<br>
+  	<br>
+  	<img src="https://cdn1.byjus.com/wp-content/uploads/2018/11/physics/2018/07/09073204/Physics-Formulas-For-Class-10-8.png">
+  </div>
+  <div id="formulas heat" class="formulas heat">
+  	<h2>Heat</h2>
+  	<br>
+  	<br>
+  	<img src="https://cdn1.byjus.com/wp-content/uploads/2018/11/physics/2018/07/09073201/Physics-Formulas-For-Class-10-9.png">
+  </div>
+  <div id="formulas photoelectric" class="formulas photoelectric">
+  	<h2>Photoelectric</h2>
+  	<br>
+  	<br>
+  	<img src="https://cdn1.byjus.com/wp-content/uploads/2018/11/physics/2018/07/09073158/Physics-Formulas-For-Class-10-11.png">
+  </div>
+  <div id="nextBtn active" class="nextBtn active">
+  	<img src="next.png" onclick="next();">
+  </div>
+</body>
+<script type="text/javascript">
+	function next(){
+		var active = document.getElementsByClassName("active");
+		console.log(active);
+		if (active[0].className === "formulas vectors active"){
+			active[0].className = active[0].className.replace(" active", "");
+			active[0].className = active[0].className.replace(" active", "");
+
+			document.getElementsByClassName("projectile")[0].className = document.getElementsByClassName("projectile")[0].className + " active";
+			document.getElementsByClassName("work")[0].className = document.getElementsByClassName("work")[0].className + " active";
+			document.getElementsByClassName("prevBtn")[0].className = document.getElementsByClassName("prevBtn")[0].className + " active";
+
+		}else if (active[1].className === "formulas projectile active"){
+			active[1].className = active[1].className.replace(" active", "");
+			active[1].className = active[1].className.replace(" active", "");
+
+			document.getElementsByClassName("gravity")[0].className = document.getElementsByClassName("gravity")[0].className + " active";
+			document.getElementsByClassName("waves")[0].className = document.getElementsByClassName("waves")[0].className + " active";
+		}else if (active[1].className === "formulas gravity active"){
+			active[1].className = active[1].className.replace(" active", "");
+			active[1].className = active[1].className.replace(" active", "");
+
+			document.getElementsByClassName("sound")[0].className = document.getElementsByClassName("sound")[0].className + " active";
+			document.getElementsByClassName("reflection")[0].className = document.getElementsByClassName("reflection")[0].className + " active";
+		}else if (active[1].className === "formulas sound active"){
+			active[1].className = active[1].className.replace(" active", "");
+			active[1].className = active[1].className.replace(" active", "");
+
+			document.getElementsByClassName("heat")[0].className = document.getElementsByClassName("heat")[0].className + " active";
+			document.getElementsByClassName("photoelectric")[0].className = document.getElementsByClassName("photoelectric")[0].className + " active";
+			document.getElementsByClassName("nextBtn")[0].className.replace(" active", "");
+
+		}
+	}
+	function back(){
+		var active = document.getElementsByClassName("active");
+		if (active[1].className === "formulas heat active"){
+			active[1].className = active[1].className.replace(" active", "");
+			active[1].className = active[1].className.replace(" active", "");
+
+			document.getElementsByClassName("sound")[0].className = document.getElementsByClassName("sound")[0].className + " active";
+			document.getElementsByClassName("reflection")[0].className = document.getElementsByClassName("reflection")[0].className + " active";
+			document.getElementsByClassName("prevBtn")[0].className = document.getElementsByClassName("prevBtn")[0] + " active";
+
+
+		}else if (active[1].className === "formulas sound active"){
+			active[1].className = active[1].className.replace(" active", "");
+			active[1].className = active[1].className.replace(" active", "");
+
+			document.getElementsByClassName("gravity")[0].className = document.getElementsByClassName("gravity")[0].className + " active";
+			document.getElementsByClassName("waves")[0].className = document.getElementsByClassName("waves")[0].className + " active";
+		}else if (active[1].className === "formulas gravity active"){
+			active[1].className = active[1].className.replace(" active", "");
+			active[1].className = active[1].className.replace(" active", "");
+
+			document.getElementsByClassName("projectile")[0].className = document.getElementsByClassName("projectile")[0].className + " active";
+			document.getElementsByClassName("work")[0].className = document.getElementsByClassName("work")[0].className + " active";
+		}else if (active[1].className === "formulas projectile active"){
+			active[1].className = active[1].className.replace(" active", "");
+			active[1].className = active[1].className.replace(" active", "");
+
+			document.getElementsByClassName("vectors")[0].className = document.getElementsByClassName("vectors")[0].className + " active";
+			document.getElementsByClassName("kinematics")[0].className = document.getElementsByClassName("kinematics")[0].className + " active";
+			document.getElementsByClassName("prevBtn")[0].className.replace(" active", "");
+
+		}
+	}
+</script>
+</html>
