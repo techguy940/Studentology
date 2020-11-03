@@ -76,7 +76,6 @@
 <script type="text/javascript">
 	function next(){
 		var active = document.getElementsByClassName("active");
-		console.log(active);
 		if (active[0].className === "formulas vectors active"){
 			active[0].className = active[0].className.replace(" active", "");
 			active[0].className = active[0].className.replace(" active", "");
@@ -103,7 +102,7 @@
 
 			document.getElementsByClassName("heat")[0].className = document.getElementsByClassName("heat")[0].className + " active";
 			document.getElementsByClassName("photoelectric")[0].className = document.getElementsByClassName("photoelectric")[0].className + " active";
-			document.getElementsByClassName("nextBtn")[0].className.replace(" active", "");
+			document.getElementsByClassName("nextBtn")[0].className = document.getElementsByClassName("nextBtn")[0].className.replace(" active", "");
 
 		}
 	}
@@ -116,6 +115,7 @@
 			document.getElementsByClassName("sound")[0].className = document.getElementsByClassName("sound")[0].className + " active";
 			document.getElementsByClassName("reflection")[0].className = document.getElementsByClassName("reflection")[0].className + " active";
 			document.getElementsByClassName("prevBtn")[0].className = document.getElementsByClassName("prevBtn")[0] + " active";
+      document.getElementsByClassName("nextBtn")[0].className = document.getElementsByClassName("nextBtn")[0] + " active";
 
 
 		}else if (active[1].className === "formulas sound active"){
@@ -136,7 +136,7 @@
 
 			document.getElementsByClassName("vectors")[0].className = document.getElementsByClassName("vectors")[0].className + " active";
 			document.getElementsByClassName("kinematics")[0].className = document.getElementsByClassName("kinematics")[0].className + " active";
-			document.getElementsByClassName("prevBtn")[0].className.replace(" active", "");
+			document.getElementsByClassName("prevBtn")[0].className = document.getElementsByClassName("prevBtn")[0].className.replace(" active", "");
 
 		}
 	}
