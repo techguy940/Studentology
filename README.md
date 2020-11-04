@@ -23,8 +23,8 @@ Never forget any of your ToDo stuff, use Studentology's TODO List and perform ta
 Ever roamed every page on Google to just get a Wikipedia search? Ever needed Wikipedia to write essays and you didn't find it? Well say **No More**, Presenting Studentology's **Wikipedia Search**, search your queries and get Wikipedia search results right on a mouse click! Never roam around for Wikipedia search, use Studentology's **Wikipedia Search** and get fast and reliable Wikipedia results in a period of a second!
 
 
-#### Steps to Open
-Go to **Projects** section of the website, click on **Take me there** on the **Wikipedia Search** Card.
+#### How to Open + Demo
+![Hi](https://media2.giphy.com/media/kqWErSo4tTXMCp9q4c/giphy.gif)
 
 ### 4. [Formulas Cheatsheet](https://studentology.000webhostapp.com/formulas.html)
 Ever forgot a formula and searched whole internet and couldn't find it? Say **No More**, Get all your formulas from basic to the hardest at one place! Studentology's **Formulas Cheatsheet** provides you with a wide range of formulas used in elementary schools to higher levels! Trigonometry, Algebra, Squares, Cubes, Areas and much more... all at **one** place. Use Studentology's **Formulas Cheatsheet** to ease your workload and learn more!
