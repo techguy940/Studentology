@@ -2,23 +2,25 @@
 
 body
 {
+  display: flex;
+  align-items: center;
+  justify-content: center;
+  background-color: #4158D0;
+  background-image: linear-gradient(43deg, #4158D0 0%, #C850C0 46%, #FFCC70 100%);
+  min-height: 100vh;
   font-family: 'Poppins', sans-serif;
 }
 
+
+#navbar {
+  background-color: #333;
+  position: absolute;
+  top: 0;
+  width: 100%;
+}
 .projects
 {
-  position: relative;
-  display: inline-block;
   text-align: center;
-  justify-content: center;
-  align-items: center;
-  background: linear-gradient(to right, #0ABFBC, #FC354C);
-  width: 100%;
-  max-height: 80vh;
-  background-repeat: no-repeat;
-  background-size: cover;
-  padding-top: 70px;
-  overflow-y: hidden;
 }
 
 .projects h2
@@ -26,6 +28,8 @@ body
   font-size: 3em;
   text-transform: uppercase;
   color: #fff;
+  position: relative;
+  top: 40px;
 }
 .main
 {
@@ -39,8 +43,8 @@ body
 .main .card
 {
   position: relative;
-  width: 280px;
-  height: 380px;
+  width: 300px;
+  height: 400px;
   background-color: #85FFBD;
   background-image: linear-gradient(45deg, #85FFBD 0%, #FFFB7D 100%);
   display: inline-block;
@@ -48,6 +52,7 @@ body
   justify-content: center;
   margin: 30px;
   box-shadow: 0 20px 50px rgba(0, 0, 0, 0.2);
+  border-radius: 5px;
 }
 
 .main .card:before
@@ -142,12 +147,6 @@ body
   transition: 0.5s;
 }
 
-#navbar {
-  overflow: hidden;
-  background-color: #333;
-  height: 100%;
-}
-
 #navbar a {
   float: right;
   display: block;
@@ -177,4 +176,27 @@ body
 
 .content {
   padding: 16px;
+}
+
+.todoTake
+{
+	position: relative;
+	top: 39px;
+}
+
+.formulasTake
+{
+	position: relative;
+	top: 7px;
+}
+
+.wikiTake
+{
+	position: relative;
+	top: 19px;
+}
+
+.pomo
+{
+	top: 40px;
 }
