@@ -8,7 +8,7 @@ This website consists of many features that can help students in numerous ways<b
 The scientific calculator is a type of an electronic calculator in which different calculating methods are involved. The methods contain scientific, mathematical and some methods related to engineering. These types of calculators are used when one is going for a higher education, because higher education contains these types of essential elements. Other than that, the scientific calculators have more features as compared to the ordinary calculator in which many kinds of calculations can be performed. The functions which are involved in this type of calculator are scientific notation, floating point values, logarithmic functions,  exponential functions,  complex numbers, fractions, statistics, programmability, equation solving, matrix calculations, calculus, conversion of units and physical constants.<br>A similar version of such calculator is available in Studentology
 
 #### How to Open + Demo
-![Hi](https://media2.giphy.com/media/xgY4KzanUIwWCroOot/giphy.gif)
+![Hi](https://media4.giphy.com/media/A2Fap5r2A0PZiTXdmP/giphy.gif)
 
 
 ### 2. [TODO List](https://studentology.000webhostapp.com/todo.html)
