@@ -16,7 +16,7 @@ Never forget any of your ToDo stuff, use Studentology's TODO List and perform ta
 
 
 #### How to Open + Demo
-![Hi](https://j.gifs.com/oVLXmY.gif)
+![Hi](https://media4.giphy.com/media/JQS1gfk3Z99m5U2CA1/giphy.gif)
 
 
 ### 3. [Wikipedia Search](https://studentology.000webhostapp.com/wiki.html)
