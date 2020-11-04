@@ -15,8 +15,8 @@ The scientific calculator is a type of an electronic calculator in which differe
 Never forget any of your ToDo stuff, use Studentology's TODO List and perform tasks like never before. Like a classic ToDo List, this version also contains several options to checkmark your todo work, delete it from the list, add to the list and more... Make sure to use it!
 
 
-#### Steps to Open
-Go to **Projects** section of the website, click on **Take me there** on the **ToDo List** Card.
+#### How to Open + Demo
+![Hi](https://j.gifs.com/oVLXmY.gif)
 
 
 ### 3. [Wikipedia Search](https://studentology.000webhostapp.com/wiki.html)
